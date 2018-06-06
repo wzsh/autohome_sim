@@ -18,10 +18,7 @@ import PID from './PID.vue'
 import firebase from 'firebase'
 
 let config = {
-  apiKey: 'AIzaSyBFmvp4_P7CsPkUL0UieyMHxqPDvetkS5c',
-  authDomain: 'wzs-autohome.firebaseapp.com',
-  databaseURL: 'https://wzs-autohome.firebaseio.com',
-  projectId: 'wzs-autohome'
+  // <your firebase config>
 }
 let fbApp = firebase.initializeApp(config)
 export const db = fbApp.database()
